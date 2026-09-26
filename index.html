@@ -1328,3 +1328,1704 @@ if(quantityInput){
 }
 
 </script>
+<!-- =========================
+     PART 3 - SERVICES
+========================= -->
+
+<section class="services-section">
+
+    <div class="section-heading service-head">
+
+        <div>
+            <h2>Popular Services</h2>
+            <p>Choose the service you need</p>
+        </div>
+
+        <button class="view-btn">
+            View All →
+        </button>
+
+    </div>
+
+
+    <!-- CATEGORY TABS -->
+
+    <div class="category-tabs">
+
+        <button class="category-tab active" onclick="filterServices('all',this)">
+            All Services
+        </button>
+
+        <button class="category-tab" onclick="filterServices('instagram',this)">
+            Instagram
+        </button>
+
+        <button class="category-tab" onclick="filterServices('youtube',this)">
+            YouTube
+        </button>
+
+        <button class="category-tab" onclick="filterServices('facebook',this)">
+            Facebook
+        </button>
+
+        <button class="category-tab" onclick="filterServices('tiktok',this)">
+            TikTok
+        </button>
+
+    </div>
+
+
+    <!-- SERVICES GRID -->
+
+    <div class="services-grid" id="servicesGrid">
+
+
+        <!-- INSTAGRAM -->
+
+        <div class="service-card" data-platform="instagram">
+
+            <div class="service-card-top">
+
+                <div class="platform-icon instagram-icon">
+                    ◎
+                </div>
+
+                <span class="service-tag popular">
+                    Popular
+                </span>
+
+            </div>
+
+            <h3>Instagram Followers</h3>
+
+            <p>
+                High quality followers with
+                gradual and natural delivery.
+            </p>
+
+            <div class="service-meta">
+
+                <span>
+                    Starting from
+                    <strong>₹25</strong>
+                </span>
+
+                <span class="delivery">
+                    ⚡ Fast
+                </span>
+
+            </div>
+
+            <button
+                class="service-order-btn"
+                onclick="selectService('Instagram Followers - High Quality')"
+            >
+                Order Now →
+            </button>
+
+        </div>
+
+
+        <div class="service-card" data-platform="instagram">
+
+            <div class="service-card-top">
+
+                <div class="platform-icon instagram-icon">
+                    ♡
+                </div>
+
+                <span class="service-tag">
+                    Fast
+                </span>
+
+            </div>
+
+            <h3>Instagram Likes</h3>
+
+            <p>
+                Fast delivery likes for your
+                posts and reels.
+            </p>
+
+            <div class="service-meta">
+
+                <span>
+                    Starting from
+                    <strong>₹18</strong>
+                </span>
+
+                <span class="delivery">
+                    ⚡ Fast
+                </span>
+
+            </div>
+
+            <button
+                class="service-order-btn"
+                onclick="selectService('Instagram Likes - Fast Delivery')"
+            >
+                Order Now →
+            </button>
+
+        </div>
+
+
+        <!-- YOUTUBE -->
+
+        <div class="service-card" data-platform="youtube">
+
+            <div class="service-card-top">
+
+                <div class="platform-icon youtube-icon">
+                    ▶
+                </div>
+
+                <span class="service-tag">
+                    Premium
+                </span>
+
+            </div>
+
+            <h3>YouTube Views</h3>
+
+            <p>
+                Boost your video reach with
+                high retention views.
+            </p>
+
+            <div class="service-meta">
+
+                <span>
+                    Starting from
+                    <strong>₹8</strong>
+                </span>
+
+                <span class="delivery">
+                    ⚡ Fast
+                </span>
+
+            </div>
+
+            <button
+                class="service-order-btn"
+                onclick="selectService('YouTube Views - Premium')"
+            >
+                Order Now →
+            </button>
+
+        </div>
+
+
+        <!-- FACEBOOK -->
+
+        <div class="service-card" data-platform="facebook">
+
+            <div class="service-card-top">
+
+                <div class="platform-icon facebook-icon">
+                    f
+                </div>
+
+                <span class="service-tag">
+                    Popular
+                </span>
+
+            </div>
+
+            <h3>Facebook Likes</h3>
+
+            <p>
+                Increase engagement on your
+                Facebook posts.
+            </p>
+
+            <div class="service-meta">
+
+                <span>
+                    Starting from
+                    <strong>₹16</strong>
+                </span>
+
+                <span class="delivery">
+                    ⚡ Fast
+                </span>
+
+            </div>
+
+            <button
+                class="service-order-btn"
+                onclick="selectService('Facebook Likes')"
+            >
+                Order Now →
+            </button>
+
+        </div>
+
+
+        <!-- TIKTOK -->
+
+        <div class="service-card" data-platform="tiktok">
+
+            <div class="service-card-top">
+
+                <div class="platform-icon tiktok-icon">
+                    ♪
+                </div>
+
+                <span class="service-tag">
+                    Trending
+                </span>
+
+            </div>
+
+            <h3>TikTok Views</h3>
+
+            <p>
+                Give your videos more visibility
+                and reach.
+            </p>
+
+            <div class="service-meta">
+
+                <span>
+                    Starting from
+                    <strong>₹10</strong>
+                </span>
+
+                <span class="delivery">
+                    ⚡ Fast
+                </span>
+
+            </div>
+
+            <button
+                class="service-order-btn"
+                onclick="selectService('TikTok Views')"
+            >
+                Order Now →
+            </button>
+
+        </div>
+
+
+        <div class="service-card" data-platform="instagram">
+
+            <div class="service-card-top">
+
+                <div class="platform-icon instagram-icon">
+                    ◉
+                </div>
+
+                <span class="service-tag">
+                    New
+                </span>
+
+            </div>
+
+            <h3>Instagram Reel Views</h3>
+
+            <p>
+                Increase views on Instagram
+                reels with quick delivery.
+            </p>
+
+            <div class="service-meta">
+
+                <span>
+                    Starting from
+                    <strong>₹12</strong>
+                </span>
+
+                <span class="delivery">
+                    ⚡ Fast
+                </span>
+
+            </div>
+
+            <button
+                class="service-order-btn"
+                onclick="selectService('Instagram Reel Views')"
+            >
+                Order Now →
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         MINI INFO CARDS
+    ========================= -->
+
+    <div class="service-info-grid">
+
+        <div class="info-card">
+
+            <div class="info-icon">⚡</div>
+
+            <div>
+                <strong>Fast Delivery</strong>
+                <span>Quick service processing</span>
+            </div>
+
+        </div>
+
+
+        <div class="info-card">
+
+            <div class="info-icon">🔒</div>
+
+            <div>
+                <strong>Secure Orders</strong>
+                <span>Your data stays protected</span>
+            </div>
+
+        </div>
+
+
+        <div class="info-card">
+
+            <div class="info-icon">24</div>
+
+            <div>
+                <strong>24/7 Support</strong>
+                <span>We're here when you need us</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<style>
+
+/* =========================
+   SERVICES
+========================= */
+
+.services-section{
+    margin-top:32px;
+}
+
+.service-head{
+    margin-bottom:16px;
+}
+
+
+/* =========================
+   CATEGORY TABS
+========================= */
+
+.category-tabs{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    overflow-x:auto;
+    padding-bottom:5px;
+    margin-bottom:16px;
+    scrollbar-width:none;
+}
+
+.category-tabs::-webkit-scrollbar{
+    display:none;
+}
+
+.category-tab{
+    flex-shrink:0;
+    background:var(--card);
+    border:1px solid var(--border);
+    color:#8992a7;
+    padding:9px 14px;
+    border-radius:9px;
+    font-size:11px;
+    transition:.2s;
+}
+
+.category-tab:hover{
+    color:#fff;
+}
+
+.category-tab.active{
+    color:#fff;
+    background:rgba(108,99,255,.15);
+    border-color:rgba(108,99,255,.35);
+}
+
+
+/* =========================
+   SERVICE GRID
+========================= */
+
+.services-grid{
+    display:grid;
+    grid-template-columns:
+        repeat(3,minmax(0,1fr));
+    gap:15px;
+}
+
+.service-card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:16px;
+    padding:18px;
+    transition:.25s;
+}
+
+.service-card:hover{
+    transform:translateY(-3px);
+    border-color:rgba(108,99,255,.3);
+    box-shadow:
+        0 15px 35px rgba(0,0,0,.18);
+}
+
+.service-card-top{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:15px;
+}
+
+.platform-icon{
+    width:42px;
+    height:42px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:19px;
+    font-weight:800;
+}
+
+.instagram-icon{
+    background:rgba(236,72,153,.11);
+    color:#f472b6;
+}
+
+.youtube-icon{
+    background:rgba(239,68,68,.11);
+    color:#f87171;
+}
+
+.facebook-icon{
+    background:rgba(59,130,246,.11);
+    color:#60a5fa;
+}
+
+.tiktok-icon{
+    background:rgba(255,255,255,.07);
+    color:#fff;
+}
+
+.service-tag{
+    padding:5px 8px;
+    border-radius:6px;
+    background:rgba(255,255,255,.05);
+    color:#858ea1;
+    font-size:8px;
+    font-weight:700;
+}
+
+.service-tag.popular{
+    background:rgba(139,92,246,.11);
+    color:#a99fff;
+}
+
+.service-card h3{
+    font-size:14px;
+    margin-bottom:7px;
+}
+
+.service-card p{
+    color:#747e92;
+    font-size:11px;
+    line-height:1.5;
+    min-height:34px;
+    margin-bottom:17px;
+}
+
+.service-meta{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-top:13px;
+    border-top:1px solid var(--border);
+    margin-bottom:13px;
+}
+
+.service-meta span{
+    color:#737d90;
+    font-size:9px;
+}
+
+.service-meta strong{
+    color:#dce0e8;
+    font-size:11px;
+}
+
+.service-meta .delivery{
+    color:#4ade80;
+    font-size:9px;
+}
+
+.service-order-btn{
+    width:100%;
+    height:38px;
+    border-radius:9px;
+    background:#171d2b;
+    border:1px solid var(--border);
+    color:#b8becb;
+    font-size:10px;
+    font-weight:700;
+    transition:.2s;
+}
+
+.service-order-btn:hover{
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        var(--primary2)
+    );
+    color:#fff;
+    border-color:transparent;
+}
+
+
+/* =========================
+   INFO CARDS
+========================= */
+
+.service-info-grid{
+    display:grid;
+    grid-template-columns:
+        repeat(3,1fr);
+    gap:13px;
+    margin-top:18px;
+}
+
+.info-card{
+    display:flex;
+    align-items:center;
+    gap:11px;
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:13px;
+    padding:14px;
+}
+
+.info-icon{
+    width:35px;
+    height:35px;
+    flex-shrink:0;
+    border-radius:9px;
+    background:rgba(108,99,255,.10);
+    color:#a99fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:12px;
+    font-weight:800;
+}
+
+.info-card strong{
+    display:block;
+    font-size:11px;
+    margin-bottom:3px;
+}
+
+.info-card span{
+    display:block;
+    color:#687286;
+    font-size:9px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:1050px){
+
+    .services-grid{
+        grid-template-columns:
+            repeat(2,minmax(0,1fr));
+    }
+
+}
+
+@media(max-width:650px){
+
+    .services-section{
+        margin-top:27px;
+    }
+
+    .services-grid{
+        grid-template-columns:1fr;
+        gap:11px;
+    }
+
+    .service-card{
+        padding:15px;
+    }
+
+    .service-card p{
+        min-height:auto;
+    }
+
+    .service-info-grid{
+        grid-template-columns:1fr;
+        gap:9px;
+    }
+
+}
+
+</style>
+
+
+<script>
+
+/* =========================
+   SERVICE FILTER
+========================= */
+
+function filterServices(platform, button){
+
+    const cards =
+        document.querySelectorAll(".service-card");
+
+    const tabs =
+        document.querySelectorAll(".category-tab");
+
+    tabs.forEach(function(tab){
+        tab.classList.remove("active");
+    });
+
+    button.classList.add("active");
+
+    cards.forEach(function(card){
+
+        if(
+            platform === "all" ||
+            card.dataset.platform === platform
+        ){
+
+            card.style.display = "block";
+
+        }else{
+
+            card.style.display = "none";
+
+        }
+
+    });
+
+}
+
+
+/* =========================
+   SELECT SERVICE
+========================= */
+
+function selectService(serviceName){
+
+    const serviceSelect =
+        document.getElementById("serviceSelect");
+
+    if(serviceSelect){
+
+        let found = false;
+
+        for(let i=0;i<serviceSelect.options.length;i++){
+
+            if(
+                serviceSelect.options[i].text
+                === serviceName
+            ){
+
+                serviceSelect.selectedIndex = i;
+                found = true;
+                break;
+
+            }
+
+        }
+
+        if(!found){
+
+            const option =
+                document.createElement("option");
+
+            option.text = serviceName;
+
+            serviceSelect.add(option);
+
+            serviceSelect.value = serviceName;
+
+        }
+
+        window.scrollTo({
+            top:0,
+            behavior:"smooth"
+        });
+
+    }
+
+}
+
+</script>
+<!-- =========================
+     PART 4 - ORDERS
+========================= -->
+
+<section class="orders-section">
+
+    <div class="section-heading">
+
+        <div>
+            <h2>My Orders</h2>
+            <p>Track and manage all your orders</p>
+        </div>
+
+        <button class="primary-btn small-btn">
+            + New Order
+        </button>
+
+    </div>
+
+
+    <!-- ORDER SUMMARY -->
+
+    <div class="order-summary-grid">
+
+        <div class="summary-box">
+            <span class="summary-icon purple">◉</span>
+
+            <div>
+                <strong>1,248</strong>
+                <small>Total Orders</small>
+            </div>
+        </div>
+
+
+        <div class="summary-box">
+            <span class="summary-icon green">✓</span>
+
+            <div>
+                <strong>1,105</strong>
+                <small>Completed</small>
+            </div>
+        </div>
+
+
+        <div class="summary-box">
+            <span class="summary-icon orange">◷</span>
+
+            <div>
+                <strong>143</strong>
+                <small>Processing</small>
+            </div>
+        </div>
+
+
+        <div class="summary-box">
+            <span class="summary-icon red">!</span>
+
+            <div>
+                <strong>12</strong>
+                <small>Cancelled</small>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- SEARCH + FILTER -->
+
+    <div class="order-toolbar">
+
+        <div class="order-search">
+
+            <span>⌕</span>
+
+            <input
+                type="text"
+                id="orderSearch"
+                placeholder="Search by order ID or service..."
+                onkeyup="searchOrders()"
+            >
+
+        </div>
+
+
+        <div class="order-filters">
+
+            <button
+                class="filter-btn active"
+                onclick="filterOrders('all',this)"
+            >
+                All
+            </button>
+
+            <button
+                class="filter-btn"
+                onclick="filterOrders('completed',this)"
+            >
+                Completed
+            </button>
+
+            <button
+                class="filter-btn"
+                onclick="filterOrders('processing',this)"
+            >
+                Processing
+            </button>
+
+            <button
+                class="filter-btn"
+                onclick="filterOrders('cancelled',this)"
+            >
+                Cancelled
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- DESKTOP ORDER TABLE -->
+
+    <div class="orders-table-wrapper">
+
+        <table class="orders-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Order ID</th>
+                    <th>Service</th>
+                    <th>Link</th>
+                    <th>Quantity</th>
+                    <th>Charge</th>
+                    <th>Status</th>
+                    <th>Action</th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody id="ordersTableBody">
+
+
+                <tr data-status="completed">
+
+                    <td>
+                        <strong>#ORD-10482</strong>
+                        <small>Today, 08:42 PM</small>
+                    </td>
+
+                    <td>
+                        <div class="table-service">
+                            <span class="table-icon instagram">
+                                ◎
+                            </span>
+
+                            <div>
+                                <strong>Instagram Followers</strong>
+                                <small>High Quality</small>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td>
+                        <span class="link-text">
+                            instagram.com/boostly
+                        </span>
+                    </td>
+
+                    <td>1,000</td>
+
+                    <td>₹25.00</td>
+
+                    <td>
+                        <span class="table-status completed">
+                            Completed
+                        </span>
+                    </td>
+
+                    <td>
+                        <button
+                            class="details-btn"
+                            onclick="showOrderDetails('ORD-10482')"
+                        >
+                            View
+                        </button>
+                    </td>
+
+                </tr>
+
+
+                <tr data-status="processing">
+
+                    <td>
+                        <strong>#ORD-10481</strong>
+                        <small>Today, 07:31 PM</small>
+                    </td>
+
+                    <td>
+                        <div class="table-service">
+                            <span class="table-icon youtube">
+                                ▶
+                            </span>
+
+                            <div>
+                                <strong>YouTube Views</strong>
+                                <small>Premium Views</small>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td>
+                        <span class="link-text">
+                            youtube.com/watch/...
+                        </span>
+                    </td>
+
+                    <td>5,000</td>
+
+                    <td>₹42.00</td>
+
+                    <td>
+                        <span class="table-status processing">
+                            Processing
+                        </span>
+                    </td>
+
+                    <td>
+                        <button
+                            class="details-btn"
+                            onclick="showOrderDetails('ORD-10481')"
+                        >
+                            View
+                        </button>
+                    </td>
+
+                </tr>
+
+
+                <tr data-status="completed">
+
+                    <td>
+                        <strong>#ORD-10480</strong>
+                        <small>Yesterday, 06:15 PM</small>
+                    </td>
+
+                    <td>
+                        <div class="table-service">
+                            <span class="table-icon facebook">
+                                f
+                            </span>
+
+                            <div>
+                                <strong>Facebook Likes</strong>
+                                <small>Post Likes</small>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td>
+                        <span class="link-text">
+                            facebook.com/post/...
+                        </span>
+                    </td>
+
+                    <td>2,000</td>
+
+                    <td>₹31.00</td>
+
+                    <td>
+                        <span class="table-status completed">
+                            Completed
+                        </span>
+                    </td>
+
+                    <td>
+                        <button
+                            class="details-btn"
+                            onclick="showOrderDetails('ORD-10480')"
+                        >
+                            View
+                        </button>
+                    </td>
+
+                </tr>
+
+
+                <tr data-status="cancelled">
+
+                    <td>
+                        <strong>#ORD-10479</strong>
+                        <small>Yesterday, 04:22 PM</small>
+                    </td>
+
+                    <td>
+                        <div class="table-service">
+                            <span class="table-icon instagram">
+                                ♡
+                            </span>
+
+                            <div>
+                                <strong>Instagram Likes</strong>
+                                <small>Fast Delivery</small>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td>
+                        <span class="link-text">
+                            instagram.com/p/...
+                        </span>
+                    </td>
+
+                    <td>500</td>
+
+                    <td>₹9.00</td>
+
+                    <td>
+                        <span class="table-status cancelled">
+                            Cancelled
+                        </span>
+                    </td>
+
+                    <td>
+                        <button
+                            class="details-btn"
+                            onclick="showOrderDetails('ORD-10479')"
+                        >
+                            View
+                        </button>
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <!-- MOBILE ORDER CARDS -->
+
+    <div class="mobile-orders" id="mobileOrders">
+
+
+        <div
+            class="mobile-order-card"
+            data-status="completed"
+        >
+
+            <div class="mobile-order-top">
+
+                <div>
+                    <strong>#ORD-10482</strong>
+                    <small>Today, 08:42 PM</small>
+                </div>
+
+                <span class="table-status completed">
+                    Completed
+                </span>
+
+            </div>
+
+
+            <div class="mobile-service">
+
+                <span class="table-icon instagram">
+                    ◎
+                </span>
+
+                <div>
+                    <strong>Instagram Followers</strong>
+                    <small>1,000 quantity</small>
+                </div>
+
+            </div>
+
+
+            <div class="mobile-order-bottom">
+
+                <span>
+                    Charge <strong>₹25.00</strong>
+                </span>
+
+                <button
+                    class="details-btn"
+                    onclick="showOrderDetails('ORD-10482')"
+                >
+                    View Details
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div
+            class="mobile-order-card"
+            data-status="processing"
+        >
+
+            <div class="mobile-order-top">
+
+                <div>
+                    <strong>#ORD-10481</strong>
+                    <small>Today, 07:31 PM</small>
+                </div>
+
+                <span class="table-status processing">
+                    Processing
+                </span>
+
+            </div>
+
+
+            <div class="mobile-service">
+
+                <span class="table-icon youtube">
+                    ▶
+                </span>
+
+                <div>
+                    <strong>YouTube Views</strong>
+                    <small>5,000 quantity</small>
+                </div>
+
+            </div>
+
+
+            <div class="mobile-order-bottom">
+
+                <span>
+                    Charge <strong>₹42.00</strong>
+                </span>
+
+                <button
+                    class="details-btn"
+                    onclick="showOrderDetails('ORD-10481')"
+                >
+                    View Details
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div
+            class="mobile-order-card"
+            data-status="completed"
+        >
+
+            <div class="mobile-order-top">
+
+                <div>
+                    <strong>#ORD-10480</strong>
+                    <small>Yesterday, 06:15 PM</small>
+                </div>
+
+                <span class="table-status completed">
+                    Completed
+                </span>
+
+            </div>
+
+
+            <div class="mobile-service">
+
+                <span class="table-icon facebook">
+                    f
+                </span>
+
+                <div>
+                    <strong>Facebook Likes</strong>
+                    <small>2,000 quantity</small>
+                </div>
+
+            </div>
+
+
+            <div class="mobile-order-bottom">
+
+                <span>
+                    Charge <strong>₹31.00</strong>
+                </span>
+
+                <button
+                    class="details-btn"
+                    onclick="showOrderDetails('ORD-10480')"
+                >
+                    View Details
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div
+            class="mobile-order-card"
+            data-status="cancelled"
+        >
+
+            <div class="mobile-order-top">
+
+                <div>
+                    <strong>#ORD-10479</strong>
+                    <small>Yesterday, 04:22 PM</small>
+                </div>
+
+                <span class="table-status cancelled">
+                    Cancelled
+                </span>
+
+            </div>
+
+
+            <div class="mobile-service">
+
+                <span class="table-icon instagram">
+                    ♡
+                </span>
+
+                <div>
+                    <strong>Instagram Likes</strong>
+                    <small>500 quantity</small>
+                </div>
+
+            </div>
+
+
+            <div class="mobile-order-bottom">
+
+                <span>
+                    Charge <strong>₹9.00</strong>
+                </span>
+
+                <button
+                    class="details-btn"
+                    onclick="showOrderDetails('ORD-10479')"
+                >
+                    View Details
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     ORDER DETAILS MODAL
+========================= -->
+
+<div class="order-modal" id="orderModal">
+
+    <div class="modal-overlay"
+         onclick="closeOrderDetails()">
+    </div>
+
+    <div class="modal-box">
+
+        <button
+            class="modal-close"
+            onclick="closeOrderDetails()"
+        >
+            ×
+        </button>
+
+        <div class="modal-icon">
+            ✓
+        </div>
+
+        <h2>Order Details</h2>
+
+        <p class="modal-subtitle">
+            Order information and status
+        </p>
+
+
+        <div class="modal-details">
+
+            <div>
+                <span>Order ID</span>
+                <strong id="modalOrderId">
+                    #ORD-10482
+                </strong>
+            </div>
+
+            <div>
+                <span>Service</span>
+                <strong id="modalService">
+                    Instagram Followers
+                </strong>
+            </div>
+
+            <div>
+                <span>Quantity</span>
+                <strong>1,000</strong>
+            </div>
+
+            <div>
+                <span>Charge</span>
+                <strong>₹25.00</strong>
+            </div>
+
+            <div>
+                <span>Status</span>
+                <strong class="modal-success">
+                    Completed
+                </strong>
+            </div>
+
+        </div>
+
+
+        <button
+            class="primary-btn modal-btn"
+            onclick="closeOrderDetails()"
+        >
+            Done
+        </button>
+
+    </div>
+
+</div>
+
+
+<style>
+
+/* =========================
+   ORDER SECTION
+========================= */
+
+.orders-section{
+    margin-top:35px;
+    padding-bottom:20px;
+}
+
+.small-btn{
+    padding:9px 14px;
+    font-size:11px;
+}
+
+
+/* =========================
+   SUMMARY
+========================= */
+
+.order-summary-grid{
+    display:grid;
+    grid-template-columns:
+        repeat(4,1fr);
+    gap:13px;
+    margin-bottom:17px;
+}
+
+.summary-box{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:14px;
+    display:flex;
+    align-items:center;
+    gap:11px;
+}
+
+.summary-icon{
+    width:38px;
+    height:38px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:15px;
+    font-weight:800;
+}
+
+.summary-icon.purple{
+    background:rgba(139,92,246,.11);
+    color:#a99fff;
+}
+
+.summary-icon.green{
+    background:rgba(34,197,94,.11);
+    color:#4ade80;
+}
+
+.summary-icon.orange{
+    background:rgba(249,115,22,.11);
+    color:#fb923c;
+}
+
+.summary-icon.red{
+    background:rgba(239,68,68,.11);
+    color:#f87171;
+}
+
+.summary-box strong{
+    display:block;
+    font-size:16px;
+    margin-bottom:3px;
+}
+
+.summary-box small{
+    color:#687286;
+    font-size:9px;
+}
+
+
+/* =========================
+   TOOLBAR
+========================= */
+
+.order-toolbar{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:12px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:15px;
+    margin-bottom:12px;
+}
+
+.order-search{
+    flex:1;
+    max-width:380px;
+    height:39px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    padding:0 11px;
+    background:#0b0f19;
+    border:1px solid var(--border);
+    border-radius:9px;
+}
+
+.order-search span{
+    color:#697386;
+    font-size:18px;
+}
+
+.order-search input{
+    width:100%;
+    border:none;
+    outline:none;
+    background:transparent;
+    color:#fff;
+    font-size:11px;
+}
+
+.order-search input::placeholder{
+    color:#596276;
+}
+
+.order-filters{
+    display:flex;
+    gap:5px;
+    overflow-x:auto;
+}
+
+.filter-btn{
+    white-space:nowrap;
+    background:transparent;
+    color:#788196;
+    border:1px solid transparent;
+    padding:7px 10px;
+    border-radius:7px;
+    font-size:10px;
+}
+
+.filter-btn.active{
+    background:rgba(108,99,255,.13);
+    border-color:rgba(108,99,255,.2);
+    color:#aaa2ff;
+}
+
+
+/* =========================
+   TABLE
+========================= */
+
+.orders-table-wrapper{
+    overflow-x:auto;
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:15px;
+}
+
+.orders-table{
+    width:100%;
+    border-collapse:collapse;
+    min-width:850px;
+}
+
+.orders-table th{
+    text-align:left;
+    padding:13px 15px;
+    color:#626c80;
+    font-size:9px;
+    text-transform:uppercase;
+    letter-spacing:.5px;
+    border-bottom:1px solid var(--border);
+}
+
+.orders-table td{
+    padding:14px 15px;
+    border-bottom:1px solid var(--border);
+    font-size:10px;
+    color:#aab1c0;
+}
+
+.orders-table tr:last-child td{
+    border-bottom:none;
+}
+
+.orders-table td strong{
+    display:block;
+    color:#e0e3e9;
+    font-size:10px;
+    margin-bottom:4px;
+}
+
+.orders-table td small{
+    display:block;
+    color:#606a7e;
+    font-size:8px;
+}
+
+.table-service{
+    display:flex;
+    align-items:center;
+    gap:9px;
+}
+
+.table-icon{
+    width:32px;
+    height:32px;
+    border-radius:9px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+    font-weight:800;
+}
+
+.table-icon.instagram{
+    background:rgba(236,72,153,.10);
+    color:#f472b6;
+}
+
+.table-icon.youtube{
+    background:rgba(239,68,68,.10);
+    color:#f87171;
+}
+
+.table-icon.facebook{
+    background:rgba(59,130,246,.10);
+    color:#60a5fa;
+}
+
+.link-text{
+    color:#737e92;
+    font-size:9px;
+}
+
+.table-status{
+    display:inline-block;
+    padding:5px 8px;
+    border-radius:6px;
+    font-size:8px;
+    font-weight:700;
+}
+
+.table-status.completed{
+    background:rgba(34,197,94,.09);
+    color:#4ade80;
+}
+
+.table-status.processing{
+    background:rgba(249,115,22,.09);
+    color:#fb923c;
+}
+
+.table-status.cancelled{
+    background:rgba(239,68,68,.09);
+    color:#f87171;
+}
+
+.details-btn{
+    background:#171d2b;
+    border:1px solid var(--border);
+    color:#aab1c0;
+    padding:6px 9px;
+    border-radius:7px;
+    font-size:9px;
+}
+
+.details-btn:hover{
+    color:#fff;
+    border-color:rgba(108,99,255,.4);
+}
+
+
+/* =========================
+   MOBILE ORDERS
+========================= */
+
+.mobile-orders{
+    display:none;
+}
+
+.mobile-order-card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:14px;
+    margin-bottom:10px;
+}
+
+.mobile-order-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:14px;
+}
+
+.mobile-order-top strong{
+    display:block;
+    font-size:11px;
+    margin-bottom:4px;
+}
+
+.mobile-order-top small{
+    display:block;
+    color:#626c80;
+    font-size:8px;
+}
+
+.mobile-service{
+    display:flex;
+    align-items:center;
+    gap:9px;
+    padding:11px 0;
+    border-top:1px solid var(--border);
+    border-bottom:1px solid var(--borde
